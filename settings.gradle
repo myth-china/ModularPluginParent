@@ -1,0 +1,4 @@
+rootProject.name="ModularPluginParent"
+
+includeBuild("./ModularPlugin")
+includeBuild("./ModularPluginTester")
