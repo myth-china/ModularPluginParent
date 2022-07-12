@@ -1,14 +1,3 @@
-buildscript {
-    repositories {
-        mavenCentral()
-        mavenLocal()
-    }
-
-    dependencies {
-        classpath("com.ywq.mp:ModularPlugin:1.0-SNAPSHOT")
-    }
-}
-
 allprojects {
     tasks.create("downloadDependencies") {
         description = "Download all dependencies to the Gradle cache"

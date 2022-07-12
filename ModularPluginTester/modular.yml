@@ -1,0 +1,14 @@
+# global switch, whether to turn on debug
+debug: true
+# modules to debug
+moduleList:
+  # switch, whether to turn on debug
+  - debug: false
+    # match artifact in maven
+    name: rxjava
+    # match group in maven
+    group: io.reactivex.rxjava3
+    # match version in maven, If set, it will only work for the specified version.
+    version:
+    # the path of the source code. Attention, you must download(clone) the source code into the path by yourself.
+    path: ../../rxjava
